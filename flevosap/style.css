@@ -1,0 +1,532 @@
+body{
+    font-family: 'Montserrat', sans-serif; !important;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5em;
+    color: #4d5156;
+}
+
+h2, h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #4d5156;
+}
+
+h1 {
+    margin-left: 250px;
+    color: #4d5156;
+    padding-top: 100px;
+}
+
+.head2 {
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Logo {
+    position: relative;
+    width: 145px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+/*top announcement banner styling*/
+#top{
+    text-align: center;
+    font-size: 11px;
+    padding: 2px;
+    margin: 0;
+    background-color: #c2ca7f;
+    color: #00000080;
+}
+
+/*Footer styling*/
+footer{
+    text-align: center;
+    margin-top: 88px;
+    overflow: hidden;
+    background-color: #c2ca7f;
+    padding:0;
+}
+/*Einde footer design*/
+
+/*index image styling*/
+#banner{
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 0;
+    width: 100%;
+    height: 40%;
+}
+
+/*nav styling*/
+nav{
+    background-color: white;
+}
+
+nav ul{
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 20px;
+}
+
+nav li a{
+    width: 150px;
+}
+
+a svg{
+    font-size: 25px;
+    margin-right: 25px;
+    color: #00000080;
+}
+a svg:hover{
+    color: #666666;
+}
+
+/*Contact Styling*/
+.content-left-map{
+    height: 600px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.content-right-contact{
+    height: 600px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+/*Eind contact styling*/
+
+/*Registratie styling*/
+.wrapper{
+    position: relative;
+    min-height: 80vh;
+    max-width: 500px;
+    width: 100%;
+    background: #c2ca7f;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.200);
+}
+
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #4d5156;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form{
+    width: 100%;
+}
+
+.wrapper .form .input-field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input-field label{
+    width: 200px;
+    color: #4d5156;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input-field .input,
+.wrapper .form .input-field .textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .form .input-field .custom-select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.wrapper .form .input-field .custom-select select{
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    outline: none;
+    color: #6a6a6a;
+}
+
+.wrapper .form .input-field .input:focus,
+.wrapper .form .input-field .textarea:focus,
+.wrapper .form .input-field select:focus{
+    border: none;
+}
+
+.wrapper .form .input-field .check .checkmark:before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 5px;
+    height: 2px;
+    border: 2px solid;
+    border-color: transparent transparent#fff #fff;
+    transform: rotate(-45deg);
+    display: none;
+}
+
+.wrapper .form .input-field .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border:0;
+    background: #dde2a0;
+    color: #4d5156;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.wrapper .form .input-field:last-child{
+    margin-bottom: 0;
+}
+
+.wrapper .form .input-field .btn:hover{
+    background: #aeb571;
+}
+
+@media (max-width: 420px){
+    .wrapper .form .input-field{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .wrapper .form .input-field label{
+        margin-bottom: 5px;
+    }
+}
+/*Eind registratie styling*/
+
+/*Bestellen (LINKS) styling*/
+.content-left{
+    background-color: #c2ca7f;
+    height: 600px;
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.200);
+}
+.content-left .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #4d5156;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content-left .input-field{
+    margin-bottom: 15px;
+    display: flex;
+}
+.content-left .form .input-field label{
+    width: 200px;
+    color: #4d5156;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.content-left .form .input-field .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.content-left .form .input-field .custom-select select{
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #d5dbd9;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    outline: none;
+}
+.content-left .input-field .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border:0;
+    background: #dde2a0;
+    color: #4d5156;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+.content-left .form .input-field .btn:hover{
+    background: #aeb571;
+}
+
+.content-left .form .input-field .custom-select:before{
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+}
+
+.content-left .form .input-field .input:focus,
+.content-left .form .input-field .textarea:focus,
+.content-left .form .input-field select:focus{
+    border: 1px solid #898f48;
+}
+
+/*Bestellen (RECHTS) styling*/
+.content-right{
+    background-color: #c2ca7f;
+    height: 600px;
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.200);
+}
+.content-right .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #4d5156;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content-right .input-field{
+    margin-bottom: 15px;
+    display: flex;
+}
+.content-right .form .input-field label{
+    width: 200px;
+    color: #4d5156;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.content-right .form .input-field .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.content-right .form .input-field .custom-select select{
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    outline: none;
+}
+.content-right .input-field .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border:0;
+    background: #dde2a0;
+    color: #4d5156;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+.content-right .form .input-field .btn:hover{
+    background: #aeb571;
+}
+
+.content-right .form .input-field .custom-select:before{
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+}
+
+.content-right .form .input-field .input:focus,
+.content-right .form .input-field .textarea:focus,
+.content-right .form .input-field select:focus{
+    border: 1px solid #898f48;
+}
+
+/*in de fles img styling*/
+
+.farmers {
+    max-width: 100%;
+}
+
+/*index image article styling*/
+#artic{
+    height: 300px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+#artic2{
+    height: 300px;
+    margin-left: 250px;
+}
+
+.row{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+
+/*product page styling*/
+.products{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 150px;
+    border-bottom: #4d5156;
+    border-bottom-width: 10px;
+}
+
+.product-info h2{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.products img{
+    width: 250px;
+    height: auto;
+    margin-left: 250px;
+}
+
+.product-info{
+    display: inline-block;
+    margin-left: 88px;
+    width: 44%;
+}
+
+/*responsive styles*/
+@media screen and (max-width: 1260px){
+    /*index image article styling*/
+    .head2{
+        width: 90%;
+        text-align: center;
+        font-size: 23px;
+    }
+    article h3{
+        font-size: 23px;
+    }
+}
+
+/*deeper responsive styles*/
+@media screen and (max-width: 908px) {
+    article h3 {
+        margin-top: 15px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    /*product page styling*/
+    .products {
+        width: 25px;
+    }
+
+    /*product page styling*/
+    .products {
+        width: 100%;
+        margin-top: 75px;
+
+    }
+
+    .products img {
+        width: 150px;
+        height: 150px;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .product-info {
+        margin-left: 0;
+    }
+
+    .product-info p {
+        width: 300px;
+        max-width: 90%;
+        height: auto;
+        font-size: 10px;
+        margin-bottom: 60px;
+        margin-left: 10px;
+    }
+
+    .head1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .head2 {
+        font-size: 17px;
+    }
+}
+
+/*stijling winkelwagen*/
+
+    .small-container{
+        width: 1200px;
+        margin: 50px auto 80px;
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td input{
+        width: 40px;
+    }
+    td a svg{
+        font-size: 19px;
+    }
+
+    .cart-empty-text{
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .foot{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .button{
+        background-color: white;
+        border: 2px solid #aeb571;
+        padding: 6px 12px;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 50px;
+        margin-right: 16px;
+    }
+
+    .button:hover{
+        background-color: #aeb571;
+    }
